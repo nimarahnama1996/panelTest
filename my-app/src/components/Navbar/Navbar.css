@@ -1,0 +1,115 @@
+.nav-icons{
+    font-size: 21px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.nav-search-icon{
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    margin-right: -50px;
+}
+
+.nav-menu{
+    margin-left: -150px;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 480px)  {
+    .nav-message-icon{
+        display: none;
+    }
+    .nav-setting-icon{
+        display: none;
+    }
+    .nav-bell-icon{
+        display: none;
+    }
+
+    .nav-input{
+        display: none;
+    }
+    .nav-logo{
+        display: none;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    .nav-input{
+        display: none;
+    }
+
+
+    .nav-search-icon{
+        display: flex;
+        width: 70px;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-input{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .nav-search-icon{
+        display: none;
+    }
+
+    .nav-input{
+    width: 180px;
+    background-color: #131313;
+    border: none;
+    }
+
+    .nav-logo{
+        margin-left: -350px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-search-icon{
+        display: none;
+    }
+
+    .nav-logo{
+        margin-left: -1430px;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .nav-input{
+        background-color: #17171717;
+        border: none;
+    }
+
+}
+
+
+
+
+
+
+

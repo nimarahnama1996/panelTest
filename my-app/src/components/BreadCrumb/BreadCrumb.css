@@ -1,0 +1,36 @@
+.ant-breadcrumb {   
+    margin-left: 20px;
+    margin-top: 10px;
+    
+    }
+    
+    .ant-breadcrumb-link{
+        color:white;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .ant-breadcrumb-separator{
+        color: white;
+    }
+    
+    .ant-breadcrumb-link a {
+        color:white;
+        font-size: 18px;
+    }
+
+
+    @media screen and (min-width: 540px) {
+        .ant-breadcrumb {   
+            margin-left: 240px;
+            margin-top: 12px;
+            }
+            .ant-breadcrumb-link{
+                color:white;
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+    }
+
+    
